@@ -1,0 +1,30 @@
+\chapter*{Conclusion et perspectives}
+\addstarredchapter{Conclusion}
+\markboth{Conclusion}{Conclusion}
+\label{sec:conclusion}
+
+   Dans ce travail, nous avons mis en place un système capable de reconnaître automatiquement les panneaux de signalisation routière existant dans une image. Le système effectue la classification des images et détermine la catégorie du
+   panneau routier.\\
+   La classification des panneaux de signalisation a été effectuée par un réseau de neurone profond de type convolutionnel par rapport à deux architectures différentes(VGGnet et Spatial transformer).\\
+   
+   Les résultats obtenus montre que l'apprentissage par les données syntde type 'Spatial Transformer Network' donne un taux de reconnaissance meilleur que celle 
+   Le problème majeur qu’on a rencontré dans cette partie, est le temps de calcul immense que nécessite l’apprentissage des réseaux de neurones profonds y-compris ceux de type convolutionnel.\\
+
+Les expériences menées dans cette partie ont montrées que l’entraînement sur des données synthétisées donne des résultats améliorés par rapport à celui effectué sur les données réelles dans les deux cas : pour le  ‘VGGnet’ et aussi pour le modèle de « Spatial Transformer network ».
+D’un autre coté, les résultats montrent aussi que le modèle de "Spatial Transformer Network" est meilleur que celui du "VGGnet" pour les deux types de data-set.\\
+
+Suite à ce travail, de nombreuses perspectives sont envisageables, les plus importants étant :
+\begin{itemize}
+    \item Entamer le module de la  de détection qui présente une partie importante dans ce genre de systèmes et explorer ses différentes méthodes tout en effectuant des contributions par rapport à ce qui a était fait déjà dans la littérature;
+    \item Pour la reconnaissance, le taux de classification peut être amélioré en enrichissant la base d’apprentissage par d’autres types d’augmentation de données;
+    \item L'implémentation de d'autres architechtures de réseaux de neurones et faire des études comparative (Comparative Survey) afin d'avoir une idée globale sur les performances des réseaux de neurones par rapport à la classification des panneaux de signalisation;
+    \item Essayer d'exploiter le même travail mais avec des captures vidéos ;
+    \item Introduire une fonction de poursuite (faire le suivi) pour déterminer les correspondances entre les images successives. Ceci permettra d’améliorer le temps de détection dans les images qui suivent d’une part et d’améliorer la qualité de la classification d’autre part;
+    \item Estimation de la position des panneaux par rapport à la caméra afin de déterminer leur géolocalisation et faciliter ainsi leur gestion et maintien;
+    \item Continuer le développement du Benchmark Algérien et investiguer beaucoup plus sur le mauvais taux de classification obtenu.
+
+\end{itemize}
+
+
+
+

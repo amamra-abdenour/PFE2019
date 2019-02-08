@@ -1,0 +1,30 @@
+\chapter*{Introduction Générale}
+\addstarredchapter{Introduction Générale}
+\markboth{Introduction}{Introduction}
+\label{chap:introduction}
+%\minitoc
+
+Le développement technologique rapide a permis aux véhicules de devenir l’un des moyens de transport les plus confortables et fiables. Cependant, des phénomènes alarmants lies à la circulation routière sont apparus tels que la congestion bloquante et les accidents mortels. Chaque année, environ 40.000 personnes meurent sur les routes, et 1,7 millions autres sont grièvement blessées \cite{25}. Autre que les dégâts humains, les coûts annuels engendrés par les accidents de la route s’élèvent à près de 3 \% du PIB mondial, et le problème continue à s’aggraver à cause de la disparité entre le rythme de construction de routes et le nombre de véhicules qui les occupent chaque année. \\
+
+D'autre part, les panneaux de signalisation routière constituent un élément important dans l’organisation et la sécurisation du trafic routier. Leurs respect réduit considérablement le nombre et l’impact des accidents. De nos jours, la disponibilité du matériel et du logiciel performants, ainsi que l’avancement notable dans le domaine d’apprentissage automatique ont rendu possible le développement de systèmes robustes pour la détection et de reconnaissance automatique de panneaux de signalisation routière.  De tels systèmes permettront, par exemple, d’alerter le conducteur de la présence d’un signe de « Stop », de « Sens interdit » dont l’inattention du conducteur peut découler à un dégât mortel. Ce même système est indispensable pour les véhicules autonomes qui sont déjà sur les routes des payes développés. D’autant plus, la reconnaissance automatique des plaques aide dans l’entretien des panneaux défectueux qui est une tache fastidieuse qui doit se faire périodiquement. Pour ces raisons, de tels systèmes attirent de plus en plus l’attention des industriels de l’automobile. Certains modèles de véhicules haut de gamme sont déjà équipés de fonctionnalité de détection automatique des panneaux sans qu’ils soient autonomes. \\
+
+Dans la lumière de cette thématique, nous proposons une étude des algorithmes de reconnaissance des panneaux routiers en utilisant des techniques d’apprentissage profonds ou «\textit{Deep Leanring}». Plus particulièrement, nous nous intéressons aux architectures de réseaux de neurones profonds de type convolutif ou CNN (\textit{Convolutional Neural Networks}) – qui sont mieux adaptés aux taches de classification d’images. Plusieurs variantes de ces modèles seront comparées afin d’établir des choix fondés avant de développer une solution déployable. En plus, nous avons proposé une approche basée sur l’apprentissage a partir de données synthétiques pour remédier aux problèmes de différence d'apparence des signes à travers les pays et a l’insuffisance ou le déséquilibre de la quantité de données d’apprentissage.\\
+ 
+Afin de mieux présenter les techniques étudiées et les résultats obtenus suite au travail effectué, le reste de ce mémoire est organisé en trois parties. Dans la première, nous présentons des généralités sur les panneaux de signalisation routière et leurs normalisations. Nous enchaînons avec des applications du système de reconnaissance automatique et quelques difficultés qui les entravent.
+
+Dans la deuxième partie, divisée en deux chapitres, nous évoquons la détection ainsi que la reconnaissance des panneaux routiers. Nous présentons, d'abord,  l'état de l’art du domaine et les notions relatives a ces deux taches, puis une étude comparative entre les différentes méthodes de reconnaissance est effectuée. 
+
+Nous entamons la troisième partie par un aperçu sur le \emph{Deep Learning} et nous mettons l’accent sur les CNN pour la classification des images. Une étude expérimentale approfondie sera par la suite menée pour montrer les performances de certaines variantes de CNN, en l'occurrence, le  \textbf{VGGnet 16} \cite{simonyan2014very} et \textbf{Inception} \cite{43022} sur les données de panneaux de signalisation routière \textbf{GTRSB} (German Traffic Sign Recognition Benchmark \cite{Stallkamp2012}), sur lesquelles nous avons effectué une étude comparative de leurs performance. Ensuite, et afin de résoudre le problème de quantité de données d'apprentissage nécessaires, nous étudions l'apport de données synthétiques, qui sont  plus faciles à obtenir et a manipuler.\\ 
+
+Nous clôturons ce mémoire par une conclusion générale ou nous résumons les travaux que nous avons effectues et nous citerons quelques perspectives dans l'objectif de l’améliorer et d'orienter futurs travaux sur la même problématique.
+
+
+
+
+
+ 
+
+%%% Local Variables: 
+%%% mode: latex
+%%% TeX-master: "../phdthesis"
+%%% End: 
